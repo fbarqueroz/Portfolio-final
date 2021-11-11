@@ -1,7 +1,6 @@
 .animation-area {
 	height: 100vh ;
 	width: 100% ;
-  z-index: 2 ;
 }
 
 .box-area {
@@ -15,7 +14,7 @@
 
   li {
     animation: animate 20s linear infinite ;
-    background: rgba(255, 255, 255, 0.2) ;
+    background: #DBA309 ;
     bottom: -150px ;
     display: block ;
     height: 25px ;

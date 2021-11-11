@@ -7,7 +7,8 @@
   text-decoration: none; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif; }
 
 /* Scroll bar */
 ::-webkit-scrollbar {
@@ -377,7 +378,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what I provide";
+  content: "what I did";
   color: #ffbe0b; }
 
 .services .serv-content .card {
@@ -518,8 +519,10 @@ section .title::after {
   color: #fff;
   min-height: 500px;
   background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif; }
+  background-attachment: fixed; }
+
+.home-content {
+  z-index: 100; }
 
 .home .max-width {
   width: 100%;
@@ -562,8 +565,7 @@ section .title::after {
 
 .animation-area {
   height: 100vh;
-  width: 100%;
-  z-index: 2; }
+  width: 100%; }
 
 .box-area {
   height: 100%;
@@ -574,7 +576,7 @@ section .title::after {
   width: 100%; }
   .box-area li {
     animation: animate 20s linear infinite;
-    background: rgba(255, 255, 255, 0.2);
+    background: #DBA309;
     bottom: -150px;
     display: block;
     height: 25px;
