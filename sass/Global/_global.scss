@@ -6,7 +6,6 @@
     padding: 0 ;
     box-sizing: border-box ;
     text-decoration: none ;
-    text-decoration: none ;
 }
 
 html {
@@ -27,23 +26,4 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-/*Max width responsive values*/
-@media (max-width: 991px) {
-  .max-width {
-      padding: 0 50px;
-  }
-}
-
-@media (max-width: 947px) {
-  .max-width {
-    max-width: 930px;
-  }
-}
-
-@media (max-width: 690px)  {
-  .max-width {
-    padding: 0 23px;
-  }
 }
