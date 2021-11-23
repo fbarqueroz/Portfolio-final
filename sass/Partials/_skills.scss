@@ -18,7 +18,7 @@
     a {
       display: inline-block ;
       background: $yellow ;
-      color: #fff ;
+      color: $white ;
       font-size: 18px ;
       font-weight: 500 ;
       padding: 8px 16px ;
@@ -60,7 +60,7 @@
     .line {
       height: 5px ;
       width: 100% ;
-      background: lightgrey ;
+      background: $light-grey ;
       position: relative ;
 
       &::before {
@@ -80,7 +80,6 @@
     width: 100% ;
     margin-bottom: 35px ;
   }
-
 }
 
 
@@ -89,6 +88,5 @@
   .skills .skills-content .left .text {
       font-size: 19px ;
   }
-
 }
 
