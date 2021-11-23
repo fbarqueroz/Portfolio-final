@@ -1,5 +1,3 @@
-
-/* navbar styling */
 .navbar {
   position: fixed ;
   width: 100% ;
@@ -25,11 +23,11 @@
     color: $white ;
     font-size: 35px ;
     font-weight: 600 ;
-  }
 
-  a span {
-    color: $black ;
-    transition: all 0.3s ease ;
+    span {
+      color: $black ;
+      transition: all 0.3s ease ;
+    }
   }
 }
 
@@ -37,54 +35,51 @@
   color: $white ;
 }
 
-.navbar .menu {
-  li {
-    list-style: none ;
-    display: inline-block ;
-  }
-
-
-  li a {
-    display: block ;
-    color: $white ;
-    font-size: 18px ;
-    font-weight: 500 ;
-    margin-left: 25px ;
-    transition: color 0.3s ease ;
-
-    &:hover {
-      color: $black ;
-    }
-  }
-}
-
 .navbar.sticky .menu li a:hover {
   color: $white ;
 }
 
+.navbar .menu {
+  li {
+    list-style: none ;
+    display: inline-block ;
+
+    a {
+      display: block ;
+      color: $white ;
+      font-size: 18px ;
+      font-weight: 500 ;
+      margin-left: 25px ;
+      transition: color 0.3s ease ;
+
+      &:hover {
+        color: $black ;
+      }
+    }
+  }
+}
+
 @media (max-width: 947px) {
   .navbar .menu {
-      position: fixed ;
-      height: 100vh ;
-      width: 100% ;
-      left: -100% ;
-      top: 0 ;
-      background: $black ;
-      text-align: center ;
-      padding-top: 80px ;
-      transition: all 0.3s ease ;
-
-      li {
-        display: block ;
+    position: fixed ;
+    height: 100vh ;
+    width: 100% ;
+    left: -100% ;
+    top: 0 ;
+    background: #111 ;
+    text-align: center ;
+    padding-top: 80px ;
+    transition: all 0.3s ease ;
+    li {
+      display: block ;
     }
-
     li a {
       display: inline-block ;
       margin: 20px 0 ;
       font-size: 25px ;
     }
-  }
-  &.active {
+    &.active {
       left: 0 ;
+    }
   }
 }

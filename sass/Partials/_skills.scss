@@ -1,92 +1,89 @@
 /* skills section styling */
 
-.skills .title::after {
-  content: "what I know" ;
-  color: $yellow ;
+.skills .title::after{
+  content: "what I know";
+  color: $yellow;
+}
+.skills .skills-content .column{
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+  text-align: justify;
+}
+.skills .skills-content .left a{
+  display: inline-block;
+  background: $yellow;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid $yellow;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+  color: $yellow;
+  background: none;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: $yellow;
+}
+.skills-content .right .html::before{
+  width: 90%;
+}
+.skills-content .right .css::before{
+  width: 60%;
+}
+.skills-content .right .js::before{
+  width: 80%;
+}
+.skills-content .right .php::before{
+  width: 50%;
+}
+.skills-content .right .mysql::before{
+  width: 70%;
 }
 
-.skills .skills-content {
-  .column {
-    width: calc(50% - 30px) ;
-  }
-
-  .left {
-    p {
-      text-align: justify ;
-    }
-
-    a {
-      display: inline-block ;
-      background: $yellow ;
-      color: $white ;
-      font-size: 18px ;
-      font-weight: 500 ;
-      padding: 8px 16px ;
-      margin-top: 20px ;
-      border-radius: 6px ;
-      border: 2px solid $yellow ;
-      transition: all 0.3s ease ;
-
-      &:hover {
-        color: $yellow ;
-        background: none ;
-      }
-    }
-
-    .text {
-      font-size: 20px ;
-      font-weight: 600 ;
-      margin-bottom: 10px ;
-    }
-  }
-
-  .right {
-    span {
-      font-weight: 500 ;
-      font-size: 18px ;
-    }
-
-    .bars {
-      margin-bottom: 15px ;
-    }
-
-    .info {
-      display: flex ;
-      margin-bottom: 5px ;
-      align-items: center ;
-      justify-content: space-between ;
-    }
-
-    .line {
-      height: 5px ;
-      width: 100% ;
-      background: $light-grey ;
-      position: relative ;
-
-      &::before {
-        content: "" ;
-        position: absolute ;
-        height: 100% ;
-        left: 0 ;
-        top: 0 ;
-        background: $yellow ;
-      }
-    }
+@media (max-width: 947px) {
+  .skills .skills-content .column {
+    width: 100%;
+    margin-bottom: 35px;
   }
 }
-
-@media (max-width: 947px)  {
-  .skills .skills-content .column  {
-    width: 100% ;
-    margin-bottom: 35px ;
-  }
-}
-
 
 @media (max-width: 500px)  {
   .about .about-content .right .text,
   .skills .skills-content .left .text {
-      font-size: 19px ;
+      font-size: 19px;
   }
 }
-
