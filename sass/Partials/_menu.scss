@@ -32,3 +32,13 @@
 .scroll-up-btn:hover{
   filter: brightness(90%);
 }
+
+@media (max-width: 947px) {
+  .menu-btn {
+      display: block;
+      z-index: 999;
+  }
+  .menu-btn i.active:before {
+      content: "\f00d";
+  }
+}

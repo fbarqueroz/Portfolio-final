@@ -73,3 +73,17 @@
 .skills-content .right .mysql::before{
   width: 70%;
 }
+
+@media (max-width: 947px) {
+  .skills .skills-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 500px)  {
+  .about .about-content .right .text,
+  .skills .skills-content .left .text {
+      font-size: 19px;
+  }
+}
