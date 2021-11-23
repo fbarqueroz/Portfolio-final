@@ -39,38 +39,38 @@
       margin-bottom: 10px;
     }
   }
-}
 
-.skills .skills-content .right {
-  span {
-    font-weight: 500;
-    font-size: 18px;
-  }
+  .right {
+    span {
+      font-weight: 500;
+      font-size: 18px;
+    }
 
-  .bars {
-    margin-bottom: 15px;
-  }
+    .bars {
+      margin-bottom: 15px;
+    }
 
-  .info {
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-  }
+    .info {
+      display: flex;
+      margin-bottom: 5px;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-  .line {
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
+    .line {
+      height: 5px;
+      width: 100%;
+      background: lightgrey;
+      position: relative;
 
-    &::before {
-      content: "";
-      position: absolute;
-      height: 100%;
-      left: 0;
-      top: 0;
-      background: $yellow;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: $yellow;
+      }
     }
   }
 }
