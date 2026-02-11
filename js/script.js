@@ -39,7 +39,7 @@ $(document).ready(() => {
 
   // typing text animation script
   var typed = new Typed('.typing', {
-    strings: ['Designer', 'Developer'],
+    strings: ['Designer', 'Developer', 'Fullstack Developer', 'Frontend Developer', 'Backend Developer'],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,

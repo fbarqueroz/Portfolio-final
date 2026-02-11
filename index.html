@@ -3,240 +3,281 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  <link rel="shortcut icon" href="./img/favicon-01.svg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
   <title>Portfolio</title>
+
+  <!-- Icons & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/favicon-01.svg">
+
+  <!-- Main styles -->
   <link rel="stylesheet" href="public/css/styles.css">
 </head>
+
 <body>
+
+  <!-- Scroll to top -->
   <div class="scroll-up-btn">
     <i class="fas fa-angle-up"></i>
   </div>
 
-  <!--Nav-->
+  <!-- Navigation -->
   <nav class="navbar">
-      <div class="max-width">
-          <div class="logo"><a href="#">Fabián <span>BZ</span></a></div>
-          <ul class="menu">
-              <li><a href="#home" class="menu-btn">Home</a></li>
-              <li><a href="#about" class="menu-btn">About</a></li>
-              <li><a href="#services" class="menu-btn">Services</a></li>
-              <li><a href="#skills" class="menu-btn">Skills</a></li>
-              <li><a href="#teams" class="menu-btn">Projects</a></li>
-              <li><a href="#contact" class="menu-btn">Contact</a></li>
-          </ul>
-          <div class="menu-btn">
-              <i class="fas fa-bars"></i>
-          </div>
+    <div class="max-width">
+      <div class="logo">
+        <a href="#">Fabián <span>BZ</span></a>
       </div>
+
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#teams" class="menu-btn">Projects</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
   </nav>
 
   <!-- Home -->
   <section class="home" id="home">
     <div class="max-width">
-        <div class="home-content">
-            <div class="text-1"><b>Hello</b>, my name is</div>
-            <div class="text-2">Fabián Barquero</div>
-            <div class="text-3">And I'm a <span class="typing"></span></div>
-            <a href="https://drive.google.com/file/d/12Uixia2vrLk0VgWqEEpNSgtpUqxpGyXf/view?usp=sharing" target="_blank">My CV</a>
-        </div>
+      <div class="home-content">
+        <div class="text-1"><b>Hello</b>, my name is</div>
+        <div class="text-2">Fabián Barquero</div>
+        <div class="text-3">And I'm a <span class="typing"></span></div>
+
+        <a href="https://drive.google.com/file/d/1d3xwWkfqsZDEnBRDq1OsrVnHcQlql7Fj/view?usp=sharing" target="_blank">
+          My CV
+        </a>
+      </div>
     </div>
 
-    <!--Background canva -->
+    <!-- Background animation -->
     <div class="animation-area">
       <ul class="box-area">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li></li><li></li><li></li><li></li><li></li><li></li>
       </ul>
     </div>
   </section>
 
   <!-- About -->
   <section class="about" id="about">
-      <div class="max-width">
-          <h2 class="title">About me</h2>
-          <div class="about-content">
-              <div class="column left">
-                  <img src="img/profile.jpg" alt="Profile picture">
-              </div>
-              <div class="column right">
-                  <p>
-                    Hello everyone, My name is Fabián Barquero, and I’m a frontend developer and informatic engineering student.
-                    I really like to learn anything about technology and programming, how does it work and how I can make it.
-                    As a hobby, I like to play sports like volleyball, karate and baseball; play percussion instruments and make digital
-                    illustrations based on anime characters, catoon characters and japonese movies.
-                  </p>
-              </div>
-          </div>
+    <div class="max-width">
+      <h2 class="title">About me</h2>
+
+      <div class="about-content">
+        <div class="column left">
+          <img src="img/profile.jpeg" alt="Profile picture">
+        </div>
+
+        <div class="column right">
+          <p>
+            Hello everyone, my name is Fabián Barquero. I’m a frontend-focused
+            fullstack developer and a Computing Engineering student with professional
+            experience building and maintaining scalable web applications for enterprise
+            environments. I’ve worked extensively with modern frontend frameworks and CMS
+            platforms such as Adobe Experience Manager (AEM), focusing on accessibility,
+            performance, and clean, maintainable code.
+            On the frontend side, I build component-based interfaces using technologies
+            like JavaScript (ES6+), React, and Angular, ensuring responsive layouts and
+            design consistency through reusable UI components and design systems. On the backend,
+            I’ve contributed to API integrations and application logic using Node.js and Ruby on Rails,
+            collaborating closely with cross-functional teams to deliver end-to-end solutions.
+            I enjoy understanding systems from both the frontend and backend perspectives, translating
+            complex requirements into user-centered digital experiences, and continuously improving code
+            quality and scalability.
+            Outside of development, I stay active through sports, play percussion instruments, and create
+            digital illustrations inspired by anime, cartoons, and Japanese cinema.
+          </p>
+        </div>
       </div>
+    </div>
   </section>
 
   <!-- Services -->
-
-  <!--https://fontawesome.com/-->
   <section class="services" id="services">
-      <div class="max-width">
-          <h2 class="title">My services</h2>
-          <div class="serv-content">
-              <div class="card">
-                  <div class="box">
-                      <i class="fas fa-paint-brush"></i>
-                      <div class="text">Digital design</div>
-                      <p></p>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="box">
-                      <i class="far fa-window-restore"></i>
-                      <div class="text">Web Design</div>
-                      <p></p>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="box">
-                      <i class="fas fa-code"></i>
-                      <div class="text">Web Develop</div>
-                      <p></p>
-                  </div>
-              </div>
-            </div>
+    <div class="max-width">
+      <h2 class="title">My services</h2>
+
+      <div class="serv-content">
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <div class="text">Digital design</div>
           </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="far fa-window-restore"></i>
+            <div class="text">Web Design</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">Web Develop</div>
+          </div>
+        </div>https://movie-list-eight-mu.vercel.app/
       </div>
+    </div>
   </section>
 
   <!-- Skills -->
   <section class="skills" id="skills">
-      <div class="max-width">
-          <h2 class="title">My skills</h2>
-          <div class="skills-content">
-              <div class="column left">
-                  <div class="text">Develop skills</div>
-                  <p>During the time as a web design and programming student,
-                    I managed to gain enough knowledge to be able to handle
-                    the technologies of HTML, Css (Sass), Javascript (ES6),
-                    node.js and basic aspects in React JS and SQL server.
-                    I carried out projects and prototypes, either individually
-                    or as a group, as a practice or for a specific client.</p>
-              </div>
+    <div class="max-width">
+      <h2 class="title">My skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">Development skills</div>
+          <p>
+              As a fullstack developer, I build scalable and maintainable
+              web applications using modern technologies such as JavaScript
+              (ES6+), React, Angular, Ruby on Rails, and Node.js. I have solid
+              experience working with CMS platforms, REST APIs, responsive layouts,
+              and modular styling using SCSS. I focus on clean architecture, performance
+              optimization, and writing code that is easy to understand, test, and evolve
+              over time.
+          </p>
+        </div>
 
-              <!--Soft Skill -->
-              <div class="column left">
-                <div class="text">Soft skills</div>
-                <p>I received design thinking training, which helps to understand
-                  the design not only from the point of view of shapes and colors,
-                  but also from how it relates to the user and its usability; non-violent
-                  communication, which helps improve communication between teammates and
-                  clients and a module on entrepreneurship</p>
-            </div>
+        <div class="column left">
+          <div class="text">Soft skills</div>
+          <p>
+              I’m a proactive and adaptable professional who enjoys collaborating with
+              cross-functional teams in agile environments. I communicate clearly with
+              both technical and non-technical stakeholders, helping bridge the gap
+              between design, development, and business needs. Working in remote and
+              freelance settings has strengthened my problem-solving skills, autonomy,
+              and ability to take ownership of projects from concept to delivery.
+          </p>
+        </div>
 
-            <!--Design Skill -->
-            <div class="column left">
-              <div class="text">Design skills</div>
-              <p>I've an intermediate-advanced knowledge of the use and management
-                Adobe Photoshop and Adobe Illustrator tools. In addition, I do digital
-                designs as a hobby. At the web design, I have
-                knowledge in UI / UX design, in which it helps me to perform and understand
-                some things like interaction design, perform tests with users, make wireframes
-                and low-fidelity prototypes, etc.</p>
-          </div>
-          </div>
+        <div class="column left">
+          <div class="text">Design skills</div>
+          <p>
+              I have a strong eye for clean, user-centered design,
+              combining aesthetics with usability and accessibility.
+              I work comfortably with tools like Figma, Adobe XD, and
+              the Adobe Suite to create wireframes, prototypes, and
+              design systems that scale. My background in UX allows
+              me to translate user needs and business goals into intuitive
+              interfaces that are visually consistent, responsive, and
+              aligned with accessibility standards.
+          </p>
+        </div>
       </div>
+    </div>
   </section>
 
-  <!-- Proyects -->
+  <!-- Projects -->
   <section class="teams" id="teams">
-      <div class="max-width">
-          <h2 class="title">My Proyects</h2>
-          <div class="carousel owl-carousel">
-              <div class="card">
-                  <div class="box">
-                    <a href="https://alexguzman98.github.io/Tiki/" target="_blank">
-                      <img src="img/tiki-music-sc.png" alt="Tiki Music">
-                      <div class="text">Tiki Music</div>
-                    </a>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="box">
-                    <a href="https://cronologíasdeloinvisible.com" target="_blank">
-                      <img src="img/cronologias-sc.png" alt="Cronologías de lo invisible">
-                      <div class="text">Cronologías de lo invisible</div>
-                    </a>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="box">
-                    <a href="https://jeareth-venegas.github.io/ProyectoHotel.github.io/index.html" target="_blank">
-                      <img src="img/jeparis-sc.png" alt="JeParis Hotel">
-                      <div class="text">JeParis Hotel</div>
-                    </a>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="box">
-                    <a href="https://fbarqueroz.github.io/JR-Skateboarding/" target="_blank">
-                      <img src="img/jrSkateboarding-sc.png" alt="JR Skateboarding">
-                      <div class="text">JR Skateboarding</div>
-                    </a>
-                  </div>
-              </div>
+    <div class="max-width">
+      <h2 class="title">My Projects</h2>
+
+      <div class="carousel owl-carousel">
+
+        <div class="card">
+          <div class="box">
+            <a href="https://movie-list-eight-mu.vercel.app/" target="_blank">
+              <img src="img/movieList.png" alt="MovieList">
+              <div class="text">MovieList</div>
+            </a>
           </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="https://poke-app-delta-five.vercel.app/" target="_blank">
+              <img src="img/poke-app.png" alt="Poke App">
+              <div class="text">Poke App</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="https://jeareth-venegas.github.io/ProyectoHotel.github.io/index.html" target="_blank">
+              <img src="img/jeparis-sc.png" alt="JeParis Hotel">
+              <div class="text">JeParis Hotel</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="box">
+            <a href="https://fbarqueroz.github.io/JR-Skateboarding/" target="_blank">
+              <img src="img/jrSkateboarding-sc.png" alt="JR Skateboarding">
+              <div class="text">JR Skateboarding</div>
+            </a>
+          </div>
+        </div>
+
       </div>
+    </div>
   </section>
 
   <!-- Contact -->
   <section class="contact" id="contact">
-      <div class="max-width">
-          <h2 class="title">Contact me</h2>
-          <div class="contact-content">
-              <div class="column left">
-                  <div class="icons">
-                      <div class="row">
-                          <i class="fas fa-user"></i>
-                          <div class="info">
-                            <div class="head">Name</div>
-                            <div class="sub-title">Fabian Barquero</div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <i class="fas fa-map-marker-alt"></i>
-                          <div class="info">
-                            <div class="head">Address</div>
-                            <div class="sub-title">San José, Costa Rica</div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <i class="fas fa-envelope"></i>
-                          <div class="info">
-                            <div class="head">Email</div>
-                            <div class="sub-title">fabianbarquero9@gmail.com</div>
-                          </div>
-                      </div>
+    <div class="max-width">
+      <h2 class="title">Contact me</h2>
 
-                      <!-- Social Media links -->
-                      <div class="social-media">
-                        <a href="https://github.com/fbarqueroz" target="_blank"><img src="img/github-icon.svg" alt="Github"></a>
-                        <a href="https://www.instagram.com/_the_doodle_book_/" target="_blank"><img src="img/insta-icon.svg" alt="Instagram"></a>
-                        <a href="https://500px.com/p/fbarqueroz" target="_blank"><img src="img/500px-icon.svg" alt="500px"></a>
-                        <a href="https://www.linkedin.com/in/fabian-barquero-152441180" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
-                      </div>
-                  </div>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="icons">
+
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Fabian Barquero</div>
               </div>
+            </div>
+
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">San José, Costa Rica</div>
+              </div>
+            </div>
+
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">fabianbarquero9@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <a href="https://github.com/fbarqueroz" target="_blank"><img src="img/github-icon.svg" alt="Github"></a>
+              <a href="https://www.linkedin.com/in/fabi%C3%A1n-barquero-906674320/" target="_blank"><img src="img/linkedin-icon.svg" alt="LinkedIn"></a>
+            </div>
+
           </div>
+        </div>
       </div>
+    </div>
   </section>
 
-  <!--Script-->
-
+  <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="js/script.js"></script>
+
 </body>
-</html
+</html>
